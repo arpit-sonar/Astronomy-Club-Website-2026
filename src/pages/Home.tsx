@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 
 function Home() {
@@ -13,7 +13,10 @@ function Home() {
       <Link to = "/projects">
         <button>Projects</button>
       </Link>
+      <Link to = "/activities">
+        <button>Activities</button>
+      </Link>
     </>
   )
 }
-export default Home
+export default Home;
