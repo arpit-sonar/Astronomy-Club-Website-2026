@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import {Link} from "react-router-dom";
 
 
@@ -15,7 +14,10 @@ function Home() {
       <Link to = "/projects">
         <button>Projects</button>
       </Link>
+      <Link to = "/activities">
+        <button>Activities</button>
+      </Link>
     </>
   )
 }
-export default Home
+export default Home;
