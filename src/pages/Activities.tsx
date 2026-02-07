@@ -1,4 +1,3 @@
-import React, { useEffect, useState, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import eventsData from '../data/eventsData';
 import EventCard from '../components/Activities/EventCard';
